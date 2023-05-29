@@ -12,6 +12,7 @@ import org.spongepowered.asm.mixin.Mixin;
 
 @Mixin(LeavesBlock.class)
 public class LeafBlockMixin {
+
 	public VoxelShape getCameraCollisionShape(BlockState state, BlockView world, BlockPos pos, ShapeContext context) {
 		return VoxelShapes.empty();
 	}

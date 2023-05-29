@@ -1,13 +1,14 @@
 {
     "schemaVersion": 1,
     "id": "camera-through-leaves",
-    "version": "${version}",
+    "version": "1.0.1",
     "name": "Camera Through Leaves",
     "description": "Makes it so that your camera can pass through leaves while in third person mode.",
     "authors": ["Enchanted_Games"],
     "contact": {
-        "homepage": "https://fabricmc.net/",
-        "sources": "https://github.com/FabricMC/fabric-example-mod"
+        "homepage": "https://enchanted.games",
+        "sources": "https://github.com/Enchanted-Games/camera-through-leaves",
+        "issues": "https://github.com/Enchanted-Games/camera-through-leaves/issues"
     },
     "license": "CC0-1.0",
     "icon": "assets/camera-through-leaves/icon.png",
@@ -15,14 +16,9 @@
     "entrypoints": {
         "main": ["games.enchanted.ctl.CTLclient"]
     },
-    "mixins": [
-        {
-            "config": "camera-through-leaves.mixins.json",
-            "environment": "client"
-        }
-    ],
+    "mixins": ["camera-through-leaves.mixins.json"],
     "depends": {
-        "fabricloader": ">=0.14.21",
+        "fabricloader": ">=0.13.0",
         "minecraft": "~1.19.4",
         "java": ">=17",
         "fabric-api": "*"
