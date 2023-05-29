@@ -1,0 +1,9 @@
+{
+    "required": true,
+    "package": "games.enchanted.ctl.mixin",
+    "compatibilityLevel": "JAVA_17",
+    "mixins": ["LeafBlockMixin"],
+    "injectors": {
+        "defaultRequire": 1
+    }
+}
