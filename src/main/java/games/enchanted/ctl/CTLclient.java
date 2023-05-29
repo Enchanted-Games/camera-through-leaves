@@ -10,5 +10,6 @@ public class CTLclient implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		System.out.println("ctl initialised");
 	}
 }

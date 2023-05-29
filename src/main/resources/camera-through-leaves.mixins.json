@@ -3,8 +3,8 @@
     "package": "games.enchanted.ctl.mixin",
     "compatibilityLevel": "JAVA_17",
     "minVersion": "0.8",
-    "mixins": [],
-    "client": ["LeafBlockMixin"],
+    "mixins": ["LeafBlockMixin"],
+    "client": [],
     "injectors": {
         "defaultRequire": 1
     }
